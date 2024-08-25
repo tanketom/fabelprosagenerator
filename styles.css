@@ -1,0 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MedievalSharp', cursive;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    p {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+}

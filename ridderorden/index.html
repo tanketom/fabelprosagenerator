@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridderorden - Fabelprosagenerator</title>
+    <script src="../nameGenerator.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Kjære Mylvin, gi meg ein ridderorden!</h1>
+    <button onclick="generateName()">Generer namn</button>
+    <button onclick="copyName()">Kopier namn</button>
+    <div id="generatedName"></div>
+    <script>
+        // Set the JSON URL here
+        const jsonURL = 'ridderorden.json';
+        document.body.setAttribute('data-json-url', jsonURL);
+    </script>
+</body>
+</html>
