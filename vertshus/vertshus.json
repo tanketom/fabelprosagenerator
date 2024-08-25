@@ -140,13 +140,10 @@
         "Kjøkkenet"
     ],
     "h1formats": [
-        "{prefix} {adjective} {noun}",
+        "{prefix} den {adjective} {noun}",
         "{prefix} {noun} i {location}",
-        "{adjective} {prefix} {noun}",
-        "{prefix} {noun} ved {location}",
+        "{prefix} {noun} {location}",
         "{prefix} {adjective} {noun} i {location}",
-        "{prefix} {noun} frå {location}",
-        "{prefix} {noun} på {location}",
         "{prefix} {adjective} {noun} ved {location}",
         "{prefix} {noun} og {noun}",
         "{prefix} {adjective} {noun} og {noun}"
