@@ -32,6 +32,11 @@ main {
     border-radius: 10px;
 }
 
+main h1 {
+    font-family: 'MedievalSharp', cursive;
+    color: #ffd700; /* Yellow color for headlines */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -60,6 +65,15 @@ footer p {
     margin: 0;
 }
 
+footer a {
+    color: #0f5c5e; /* Styled color for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* Special Character Above Footer */
 footer::before {
     content: "⁂";
@@ -76,6 +90,8 @@ footer::before {
 @media (max-width: 768px) {
     main {
         padding: 10px;
+        box-shadow: none;
+        border-radius: 0;
     }
 
     header h1 {
@@ -84,6 +100,11 @@ footer::before {
 
     nav ul li {
         margin: 5px 0;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
