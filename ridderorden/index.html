@@ -9,10 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Kjære Mylvin, gi meg ein ridderorden!</h1>
-    <button onclick="generateName()">Generer namn</button>
-    <button onclick="copyName()">Kopier namn</button>
-    <div id="generatedName"></div>
+    <header>
+        <h1>Kjære Mylvin, gi meg ein ridderorden!</h1>
+    </header>
+    <main>
+        <button onclick="generateName()">Generer namn</button>
+        <button onclick="copyName()">Kopier namn</button>
+        <div id="generatedName"></div>
+    </main>
+    <footer>
+        <p>Laga av Andreas Hadsel Opsvik, for moro skuld. Om du må lage noko, gjer det Open Source.</p>
+    </footer>
     <script>
         // Set the JSON URL here
         const jsonURL = 'ridderorden.json';
