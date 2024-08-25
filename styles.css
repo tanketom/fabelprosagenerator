@@ -84,7 +84,7 @@ footer::before {
     color: #ffd700;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-top: -60px; /* Position the symbol 20 pixels above the footer */
+    margin-top: -76px; /* Position the symbol 20 pixels above the footer */
 }
 
 /* Responsive Design */
@@ -99,8 +99,8 @@ footer::before {
         font-size: 1.5em;
     }
 
-    .generatedName h1 {
-        font-size: 1.5em;
+    main h1 {
+        font-size: 2.5em;
     }
 
     nav ul li {
