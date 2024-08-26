@@ -315,7 +315,6 @@
         "{fornamn} {preetternamn}{sufetternamn}, den {kallenamn}!",
         "{fornamn} {preetternamn}{sufetternamn}!",
         "{fornamn} {preetternamn}{sufetternamn}{sufetternamn}!",
-        "Godaste {fornamn} {preetternamn}{sufetternamn}!",
         "{fornamn} {fornamn} {preetternamn}{sufetternamn}!",
         "{fornamn}, frå den {kallenamn} {preetternamn}{sufetternamn}-klanen.",
         "Den {kallenamn} {fornamn} {preetternamn}{sufetternamn}!",
@@ -325,8 +324,9 @@
         "{fornamn}-{fornamn}, den {kallenamn}"
     ],
     "pformats": [
-        "Sjølvaste! {eigenskap}, og {eigenskap}.",
-        "Din gamle ven! {eigenskap}, og {eigenskap}.",
-        "Ah, gløym det, kanskje ingen god idé. {eigenskap}, og {eigenskap}."
+        "Hen {eigenskap}, og {eigenskap}. Sjølvaste! ",
+        "Hen {eigenskap}, og {eigenskap}.",
+        "Hen {eigenskap}, og {eigenskap}. Din gamle ven! ",
+        "Hen {eigenskap}, og {eigenskap}. Ah, gløym det, kanskje ingen god idé."
     ]
 }
