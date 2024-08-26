@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figur - Fabelprosagenerator</title>
+    <script src="../nameGenerator.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Kjære Mylvin, gi meg ein tilfeldig bakgrunnsfigur!</h1>
+    </header>
+    <main>
+        <section>
+            <div id="generatedName"></div>
+            <button onclick="generateName()">Generer namn</button>
+            <button onclick="copyName()">Kopier namn</button>
+            <p id="combinations"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Laga av <a href="https://tutoteket.no/@tanketom/">Andreas Hadsel Opsvik</a> – <a href="https://tanketom.no/">tanketom.no</a> – for moro skuld. Om du må lage noko, <a href="https://github.com/tanketom/fabelprosagenerator">gjer det Open Source</a>.</p>
+    </footer>
+    <script>
+        // Set the JSON URL here
+        const jsonURL = 'npc.json';
+        document.body.setAttribute('data-json-url', jsonURL);
+    </script>
+</body>
+</html>
